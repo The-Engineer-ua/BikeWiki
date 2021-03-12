@@ -1,0 +1,142 @@
+[
+  {
+    "description": "“Exclusive”\nExclusive appearance, it’s a Tesi motorcycle.\nImmediately recognizable as a Bimota Tesi H2\n“High Quality”\nAluminium machined parts bounded, carbon body parts, forged wheels, handmade painting, every single detail are is parts of the design. Pleasure for the eyes, demand for the ride.\n“Functional”\nRide it and feel the differences, no any other motorcycle can be a Tesi. The Italian artistic sensitivity meets the craftsman ship. Ride an exclusive Italian artistic Icon.",
+    "icon_resource_name": "",
+    "id": 0,
+    "manufacturer_id": 7,
+    "max_speed": ">300 km/h",
+    "name": "Tesi H2",
+    "price": "~64000 EUR",
+    "short_description": "Bimota moto with kawasaki h2 engine",
+    "raw_tech_info" : "TECHNICAL INFORMATION\nModel name||Tesi H2\nFrame type||\tAluminum alloy plates billet machined, with rear swingarm mounting plate\nEngine type / Valve system||\t4 stroke, 4-cyl, DOHC, W/C, supercharged / DOHC 4 valve\nDisplacement||\t998 cm³\nBore x Stroke||\t76.0 mm × 55.0 mm\nCompression ratio||\t8.5 : 1\nMax. power||\t170 kW (231 PS) / 11,500 rpm (with Ram Air) (178 kW (242 PS) /11,500 rpm)\nMax. torque||\t141N・m (14.4 kgf・m) / 11,000 rpm\nFuel system\tDFI®|| 50 mm throttle bodies (4) with dual injection, Euro 4\nFuel capacity||\t17 lt.\nTransmission||\t6 speed, return, dog-ring, constant mesh\nGear Ratio||\t1° 3.188(51/16); 2° 2.526(48/19); 3° 2.045(45/22); 4° 1.727(38/22); 5° 1.524(32/21); 6° 1.348(31/23)\nPrimary reduction ratio||\t1.551 (76/49)\nFinal reduction ratio||\t2.444 (44/18)\nClutch type||\tWet, multi-disc\nLubrication system||\tForced Lubrication (wet sump)\nEngine oil capacity||\t5.0 lt.\n\t\nOverall length||\t2.074 mm\nOverall width||\t770 mm\nOverall height||\t1.155 mm\nWheelbase||\t1.445 mm\nGround clearance||\t140 mm\nSeat height||\t840 mm (+/- 10 mm)\nRake angle / Trail||\t21.3° / 117 mm\nFront Suspension||\tBillet aluminum alloy swingarm\nWheel travel||\t100 mm\nRear Suspension||\tBillet aluminum alloy swingarm\nRear wheel travel||\t130 mm\n\t\nFront tire size||\t120 / 70Z R17\nFront wheel size||\tJ17M/C × MT3.50\n\t\nRear tire size||\t200 / 55Z R17\nRear wheel size||\tJ17M/C × MT6.00\nFront dual||\tDisc 330 mm\nRear single||\tDisc 220 mm\nDry weight||\t207 kg\nSuggested retail price (in Italy)||\tEUR 64.000 incl. VAT 22%\nStart of sales||\tOctober 2020",
+    "subjective_stats": {
+      "comfort": 5,
+      "dynamics": 9,
+      "handling": 8,
+      "price": 5,
+      "range": 3
+    },
+    "type": "Sport",
+    "zero_hundred": "Less than 4"
+  },
+  {
+    "description": "THE SEDUCTIVE AND UNCONVENTIONAL CRUISER\n\nThe MGX-21 is the most unconventional and technological 1400cc grand cruiser built at Mandello del Lario. Moto Guzzi is one of the greatest brands in the motorcycling world and in almost a century of history has produced motorcycles that are often ahead of their time.\n",
+    "icon_resource_name": "",
+    "id": 1,
+    "manufacturer_id": 13,
+    "max_speed": "N/A",
+    "name": "MGX-21",
+    "price": "N/A",
+    "short_description": "Cruiser",
+    "raw_tech_info" : "MGX-21 –TECHNICAL SPECIFICATIONS\nEngine||Transversal 90° V-twin, four valves per cylinder, twin spark.\nCooling||Air and oil.\nDisplacement|| 1.380 cc.\nBore x Stroke||104 x 81,2 mm.\nMaximum power||96 CV (38 kW) -6.500 rpm.\nMaximum torque||121 Nm -3.000 rpm.\nCompliance||Meets European Directive Euro 4.\nEmissions||150 g/km (CO2).\nConsumption||6,6 l/100 km.\nGearbox||6 speed.\nFuel tank|| 20,5 l (5 reserve).\nSeat height.||740 mm.\nDry weight||332 kg.\nWet weight||356 kg.\nFront suspension||Hydraulic telescopic fork Ø 45 mm.\nRear suspension||Swingarm Twin-sided with two extension adjustable shock absorbers, remote spring preload adjust.\nFront wheel||Lightweight alloy, 21” 120/70.\nRear wheel||Lightweight alloy, 16” 180/60.\nFront brake||Double stainless steel floating disks Ø 320 mm, radial Brembo calipers with 4 opposed pistons.\nRear brake||Stainless steel disk Ø 282 mm, floating 2 parallel pistons Brembo caliper.\nFeatures||MGCT Moto Guzzi Controllo di Trazione, Standard double channel ABS, Ride by Wire and Cruise Control. Carbon fibre fuel tank side panels, front mudguard, side pannier covers, engine spoiler. Red engine heads and Brembo calipers. Infotainment system, radio and 25 Watt speakers, USB plug. Bluetooth smartphone connection.",
+    "subjective_stats": {
+      "comfort": 8,
+      "dynamics": 5,
+      "handling": 4,
+      "price": 5,
+      "range": 7
+    },
+    "type": "Classic",
+    "zero_hundred": "Not important"
+  },
+  {
+    "description": "THE SEDUCTIVE AND UNCONVENTIONAL CRUISER\n\nThe MGX-21 is the most unconventional and technological 1400cc grand cruiser built at Mandello del Lario. Moto Guzzi is one of the greatest brands in the motorcycling world and in almost a century of history has produced motorcycles that are often ahead of their time.\n",
+    "icon_resource_name": "",
+    "id": 2,
+    "manufacturer_id": 13,
+    "max_speed": "N/A",
+    "name": "ELDORADO",
+    "price": "N/A",
+    "short_description": "Cruiser",
+    "raw_tech_info" : "ELDORADO –TECHNICAL SPECIFICATIONS\nEngine||90° V-twin engine, 4-stroke, 4 valves, double ignition\nCooling||air and oil with an independent cooling pump Oil radiator with thermostat controlled fan\nDisplacement||1380 cc\nBore and stroke||104 x81,2 mm\nCompression ratio||10,5 : 1\nTiming system diagram (1 mm checking clearance)||intake valve opens 19° BTDC / intake valve closes 55° ABDC / exhaust valve opens 49° BBDC / exhaust valve closes 12° ATDC\nMaximum power||71 kW (96 CV) a 6500 min-1 \nMaximum torque||120 Nm 2750 min-1\nFuel supply / Ignition||phased electronic Multipoint sequential injection, Magneti Marelli IAW7SM; “ride by wire” Ø 52 mm throttle body, IWP 243 Magneti Marelli injectors, double oxygen sensor, integrated management of 3 engine mappings, traction control, cruise control\nStarting||Electrical\nSpark plugs||NGK LMAR8F, 2 per cylinder\nExhaust system||stainless steel, 2-in-2 type, 3-way catalytic converter with double oxygen sensor\nEmissions compliance||Euro 3\nGearbox||6-speed\nGear ratio values||1st 17/38 = 1 : 2.235 / 2nd 20/34 = 1: 1.700 / 3rd 23/31 = 1: 1.348 / 4th 26/29 = 1: 1.115 / 5th 31/30 = 1: 0.968 / 6th 30/24 = 1: 0.8 \nPrimary drive||with helical teeth(ratio 26/35 = 1: 1,346)\nFinal drive||double cardan joint and fixed bevel gear seat, drive ratio 10/36 = 1: 3.6)\nClutch||single-disc with integrated anti-vibration buffer\nFrame||steel tubing, closed double cradle with elastic-kinematic engine mounting system to isolate vibrations.\nWheelbase||1695mm \nTrail||144 mm\nHeadstock angle||33°\nSteering angle||37°\nFront suspensions||tandard fork , Ø 46 mm, with radial calliper mounting bracket and telescopes on the stanchions\nFront wheel travel||120 mm\nRear suspension||Swingarm with two shock absorbers, with adjustable spring preload\nRear wheel travel||120 mm \nFront brake||dual 320 mm stainless steel floating discs, Brembo radial callipers with 4 horizontally opposed pistons\nRear brake||282 mm stainless steel fixed disc, Brembo floating calliper with 2 parallel pistons\nWheels||Aluminium alloy \nFront wheel rim||3,50” x 16” \nRear wheel rim||5,50” x 16” \nFront tyre||130/90 R16ʼʼ\nRear tyre||180/65 R16ʼʼ\nSystem voltage||12 V\nBattery||12 V –18 Ah\nAlternator||12 V –550 W\nLength||2445 mm \nWidth||940mm\nHeight||1460 mm\nSaddle height||740 mm (720 mm opt.)\nMinimum ground clearance||165 mm\nKerb weight||314 Kg* Weight of bike ready to ride, will all fluids and no fuel\nFuel tank capacity||20.5 litres \nReserve||5 litres",
+    "subjective_stats": {
+      "comfort": 7,
+      "dynamics": 5,
+      "handling": 4,
+      "price": 5,
+      "range": 7
+    },
+    "type": "Classic",
+    "zero_hundred": "Not important"
+  },
+  {
+    "description": "ROCK(S) ‘N’ ROAD(S)\n\nCreated for the hardiest adventurers, the V85 TT evokes the legendary atmosphere of Paris-Dakar and other famous races. It beautifully blends the allure of the famous Mandello Eagle with the lines of modern classics to create the perfect bike for any type of journey on any type of terrain.\n",
+    "icon_resource_name": "",
+    "id": 3,
+    "manufacturer_id": 13,
+    "max_speed": "N/A",
+    "name": "V85 TT 850",
+    "price": "N/A",
+    "short_description": "Touring enduro",
+    "raw_tech_info" : "V85 TT –TECHNICAL SPECIFICATIONS\nEngine||Transversal 90° V-twin, two valves per cylinder (titanium intake).\nCooling||Air.\nDisplacement|| 853 cc.\nBore x Stroke||84 x 77 mm.\nMaximum power||80 CV (59 kW) -7.750 rpm (Also available at 35 kW, A2 driver license).\nMaximum torque||80 Nm -5.000 rpm.\nCompliance||Meets European Directive Euro 4.\nEmissions||118 g/km (CO2).\nConsumption||4,9 l/100 km.\nGearbox||6 speed.\nFuel tank|| 21 l (5 reserve).\nSeat height.||830 mm.\nDry weight||208 kg.\nWet weight||229 kg.\nFront suspension||Upside-down hydraulic telescopic fork Ø 41 mm, with adjustable extension and spring preload.\nRear suspension||Swingarm Twin-sided with lateral mono shock absorber, adjustable extension and spring preload.\nFront wheel||Spoked with tube, 19\" 110/80.\nRear wheel||Spoked with tube, 17\" 150/70.\nFront brake||Double stainless steel floating disk Ø 320 mm, radial Brembo calipers with 4 opposed pistons.\nRear brake||Stainless steel disk Ø 260 mm, floating 2 pistons caliper.\nFeatures||Display TFT, full LED lights, Ride by Wire, 3 Riding Mode (Street, Rain, Off-road), Cruise Control, Handguard, Aluminium sump guard, MGCT Moto Guzzi Controllo di Trazione, Standard double channel ABS.",
+    "subjective_stats": {
+      "comfort": 7,
+      "dynamics": 6,
+      "handling": 6,
+      "price": 4,
+      "range": 6
+    },
+    "type": "TouringEnduro",
+    "zero_hundred": "Not important"
+  },
+  {
+    "description": "ESSENTIAL AND ECLECTIC\n\nThe V7 III Stone now boasts ever more distinctive and bolder aesthetic features. Eclectic and essential, it eschews any touch of chrome whatsoever, opting instead to embrace the darkness of matt black paintwork perfectly setting off the dedicated seat with its passenger grab strap. Whilst the total dark matt look distinguishes the V7 III from other versions, there are plenty of other differences. And, for those wanting a splash of colour, there are three captivating satin shades inspired by the typical tones of the 70s: Nero Ruvido (black), Grigio Granitico (granite grey) and Rosso Rovente, a fiery red.\n",
+    "icon_resource_name": "",
+    "id": 4,
+    "manufacturer_id": 13,
+    "max_speed": "N/A",
+    "name": "V7 III STONE",
+    "price": "N/A",
+    "short_description": "Neo classic",
+    "raw_tech_info" : "V7 III STONE –TECHNICAL SPECIFICATIONS\nEngine||Transversal 90° V-twin, two valves per cylinder.\nCooling||Air.\nDisplacement||744 cc.\nBore x Stroke||80 x 74 mm.\nMaximum power||52 CV (38 kW) -6.200 rpm (Also available at 35 kW, A2 driver license).\nMaximum torque||60 Nm -4.900 rpm.\nCompliance||Meets European Directive Euro 4.\nEmissions||128 g/km (CO2).\nConsumption||5,5 l/100 km.\nGearbox||6 speed.\nFuel tank|| 21 l (4 reserve).\nSeat height.||770 mm.\nDry weight||189 kg.\nKerb weight||209 kg (According to guideline VO (EU) 168/2013 with all fluids, with standard equipment and fuelled with at least 90% of usable tank volume).\nFront suspension||Hydraulic telescopic fork Ø 40 mm.\nRear suspension||Swingarm Twin-sided with two spring preload adjustable shock absorbers.\nFront wheel||Lightweight alloy, 18\" 100/90 (18\" 110/80 alternatives tyres).\nRear wheel||Lightweight alloy, 17\" 130/80.\nFront brake||Stainless steel floating disk Ø 320 mm, Brembo caliper with 4 differentiated and opposed pistons.\nRear brake||Stainless steel disk Ø 260 mm, floating 2 pistons caliper.\nFeatures||MGCT Moto Guzzi Controllo di Trazione, Standard double channel ABS",
+    "subjective_stats": {
+      "comfort": 6,
+      "dynamics": 7,
+      "handling": 7,
+      "price": 5,
+      "range": 5
+    },
+    "type": "Classic",
+    "zero_hundred": "Not important"
+  },
+  {
+    "description": "STYLISH RIDING BEYOND THE CITY LIMITS\n\nExhilarating, lightweight and a joy to ride, the V9 Roamer is the Italian custom bike not only for riders who want to stand out on the city roads but also for long-distance aficionados. Its sleek shape and design combine the classic and the modern in a unique take on the trends of today. The V9 Roamer was created not only for long road trips but also journeys of the imagination. It is the ideal custom bike for riders pulled by that irrepressible desire for freedom, for those bikers who want to stamp their mark both on the road and in their garage. It’s for those who, donning their helmet, are willing to leave daily routines and pragmatism behind and instead, roll up their sleeves to create their best friend on two wheels.\n",
+    "icon_resource_name": "",
+    "id": 5,
+    "manufacturer_id": 13,
+    "max_speed": "N/A",
+    "name": "V9 ROMER",
+    "price": "N/A",
+    "short_description": "Neo classic",
+    "raw_tech_info" : "V9 ROMER -TECHNICAL SPECIFICATIONS\nEngine||90° V-twin, 4-stroke, 2-valves per cylinder\nCooling||air and oil\nDisplacement||853 cc\nBore and stroke||84 x 77 mm\nCompression ratio||10.5: 1\nMaximum power||40.44 kW at 6,250 rpm\nTorque||62 Nm at 3,000 rpm\nFuel system||Marelli MIU single-body electronic injection, integrated management of traction control on 2 levels\nStarter||electric\nExhaust system||stainless steel, 2-in-2 type, three-way catalytic converter with doublelambda probe\nApproval||Euro 4\nTransmission||6 speeds (with overdrive top gear)\nGear ratio values||1st 16/39 = 1: 2.4372nd 18/32 = 1: 1.7783rd 21/28 = 1: 1.3334th 24/26 = 1: 1.0835th 25/24 = 1: 0.966th 28/24 = 1: 0.857\nPrimary drive||with helical teeth, ratio 21/25 = 1: 1.190\nFinal drive||double universal joint and double bevel gear units (8/33 ratio = 1:4.125)\nClutch||Ø 170 mm single disc with integrated flexible couplings\nFrame||ALS steel twin tube cradle frame\nWheelbase||1465 mm\nTrail||125.1 mm\nHeadstock angle||26.4°\nSteering angle||38°\nFront suspension||standard fork, Ø 40 mm\nRear suspension||swingarm with two shock absorbers, with adjustable spring preload\nRear wheel travel||99 mm\nFront Brake||stainless steel floating disc, Ø 320 mm Brembo opposed four-pistoncallipers\nRear brake||stainless steel floating disc, Ø 260 mm Brembo opposed two-pistoncallipers\nWheels||Aluminium alloy\nFront wheel rim||2.50” x 19”\nRear wheel rim||4.00” x 16”",
+    "subjective_stats": {
+      "comfort": 6,
+      "dynamics": 7,
+      "handling": 7,
+      "price": 5,
+      "range": 5
+    },
+    "type": "Classic",
+    "zero_hundred": "Not important"
+  },
+  {
+    "description": "\n750cc Liquid-Cooled Revolution X™ Engine\nThe blacked-out, liquid-cooled V-Twin engine is built to conquer the hot and heavy traffic of urban streets. You can count on a smooth response to the progressive throttle when you want to get through any hole that opens up in front of you.\n",
+    "icon_resource_name": "",
+    "id": 6,
+    "manufacturer_id": 12,
+    "max_speed": "N/A",
+    "name": "Street 750",
+    "price": "N/A",
+    "short_description": "Cheapest harley",
+    "raw_tech_info" : "Dimensions\nLength||2,215 mm\nSeat Height, Unladen||720 mm\nGround Clearance||145 mm\nRake||32\nTrail||115 mm\nWheelbase||1,520 mm\nTyres, Front Specification||100/80-17\nTyres, Rear Specification||140/75 R15\nFuel Capacity||13.1 l\nOil Capacity (w/filter)||3.1 l\nWeight, As Shipped||223 kg\nWeight, In Running Order||233 kg\nEngine\nEngine||Liquid-cooled, Revolution® X V-Twin\nBore||85 mm\nStroke||66 mm\nDisplacement||749 cc\nCompression Ratio||11:01\nFuel System||Mikuni Single Port Fuel Injection, 38 mm bore\nExhaust||Black two into one\nPerformance\nEngine Torque Testing Method||EC 134/2014\nEngine Torque||59 Nm\nEngine Torque (rpm)||4,000\nLean Angle, Right (deg.)||28.5\nLean Angle, Left (deg.)||28.5\nFuel Economy Testing Method||EU 134/2014\nFuel Economy||4.8 l/100 km\nCO2 Emissions Testing Method||EU 134/2014\nCO2 Emissions||110 g/km CO2\nDrive Train\nPrimary Drive||Gear, 36/68 ratio\nGear Ratios (overall) 1st||14.272\nGear Ratios (overall) 2nd||10.074\nGear Ratios (overall) 3rd||7.446\nGear Ratios (overall) 4th||6.006\nGear Ratios (overall) 5th||5.037\nGear Ratios (overall) 6th||4.533\nChassis\nWheels, Front Type||Black, 7-Spoke Cast Aluminium with Machined Rim Highlights\nWheels, Rear Type||Black, 7-Spoke Cast Aluminium with Machined Rim Highlights\nBrakes, Caliper Type||2-piston floated front and rear\nElectric\nLights (as per country regulation), Indicator Lamps||High beam, neutral, low oil pressure, turn signals, engine diagnostics, low fuel warning\nGauges||3.5 inch electronic speedometer with high beam, neutral, low oil pressure, turn signals, engine diagnostics, low fuel warning, blade key ignition and fork lock, and locking gas cap\n",
+    "subjective_stats": {
+      "comfort": 6,
+      "dynamics": 6,
+      "handling": 7,
+      "price": 7,
+      "range": 6
+    },
+    "type": "Classic",
+    "zero_hundred": "Not important"
+  }
+]

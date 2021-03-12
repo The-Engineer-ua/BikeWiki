@@ -1,0 +1,15 @@
+<resources>
+    <!-- Text sizes -->
+    <dimen name="item_title_text_size">24sp</dimen>
+    <dimen name="item_description_text_size">20sp</dimen>
+
+    <dimen name="table_header_text_size">22sp</dimen>
+
+    <!-- Padding -->
+    <dimen name="item_main_padding">15dp</dimen>
+
+    <!-- Margin -->
+    <dimen name="item_main_margin">10dp</dimen>
+
+    <dimen name="item_image_size">130dp</dimen>
+</resources>

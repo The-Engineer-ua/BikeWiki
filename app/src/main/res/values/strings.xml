@@ -1,3 +1,70 @@
 <resources>
-    <string name="app_name">BikeAgreggator</string>
+    <string name="app_name">Bike Selection Helper</string>
+    <string name="tab_wiki">Wiki</string>
+    <string name="tab_quiz">Quiz</string>
+    <string name="ic_content_description">Icon</string>
+    <string name="filter_content_description">Filter motorcycles</string>
+
+    <string name="btn_ok_filter">OK</string>
+    <string name="btn_cancel_filter">Cancel</string>
+    <string name="filter_motorcycles_title">Filter motorcycles</string>
+
+    <string name="hint_type">Type of motorcycle</string>
+    <string name="desc_infographics">Infographics:</string>
+
+    <!-- Infographics titles -->
+    <string name="info_handling">Handling</string>
+    <string name="info_range">Fuel range</string>
+    <string name="info_dynamics">Engine dynamics</string>
+    <string name="info_comfort">Comfort</string>
+    <string name="info_price">Price</string>
+
+    <!-- Table stats values -->
+    <string name="table_section_engine">Engine:</string>
+    <string name="table_section_chassis">Chassis:</string>
+    <string name="table_section_dimensions">Dimensions:</string>
+
+    <string name="table_displacement">Displacement:</string>
+    <string name="table_cylinders">Cylinders:</string>
+    <string name="table_hp">Horse power:</string>
+    <string name="table_engine_type">Type:</string>
+    <string name="table_torque">Torque:</string>
+    <string name="table_compression">Compression:</string>
+    <string name="table_injection">Fuel intake type:</string>
+    <string name="table_exhaust">Exhaust:</string>
+    <string name="table_drive_train">Drivetrain:</string>
+    <string name="table_clutch">Clutch:</string>
+    <string name="table_transmission">Transmission:</string>
+
+
+    <string name="table_frame">Frame:</string>
+    <string name="table_swingarm">Swingarm:</string>
+    <string name="table_front_tire">Front tire:</string>
+    <string name="table_rear_tire">Rear tire:</string>
+    <string name="table_front_rim">Front rim:</string>
+    <string name="table_rear_rim">Rear rim:</string>
+    <string name="table_front_suspension">Front suspension:</string>
+    <string name="table_rear_suspension">Rear suspension:</string>
+    <string name="table_front_brake">Front brakes:</string>
+    <string name="table_rear_brake">Rear brakes:</string>
+    <string name="table_gauges">Gauges:</string>
+
+
+    <string name="table_fuel">Tank capacity:</string>
+    <string name="table_height">Height:</string>
+    <string name="table_width">Width:</string>
+    <string name="table_length">Length:</string>
+    <string name="table_seat_height">Seat height:</string>
+    <string name="table_wheel_base">Wheel base:</string>
+    <string name="table_fork_angle">Fork angle:</string>
+    <string name="table_fork_shift">Trail:</string>
+    <string name="table_weight">Weight:</string>
+
+    <string name="quiz_template">Bike selection quiz will be released in future updates</string>
+
+    <string name="description_price">Current price:</string>
+    <string name="description_max_speed">Max speed is:</string>
+    <string name="description_dynamics">From zero to hundred:</string>
+    <string name="description_type">Type is:</string>
+    <string name="description_description">description</string>
 </resources>

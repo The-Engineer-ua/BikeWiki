@@ -1,4 +1,4 @@
-package com.example.bike_aggregator
+package com.glushkov.bike_aggregator
 
 import org.junit.Test
 

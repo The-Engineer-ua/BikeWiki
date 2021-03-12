@@ -1,0 +1,100 @@
+[
+{
+  "id": "0",
+  "name": "Ducati",
+  "short_description": "Italia",
+  "description": "Ducati Motor Holding S.p.A. (Italian pronunciation: [duˈkaːti]) is the motorcycle-manufacturing division of Italian company Ducati, headquartered in Bologna, Italy. The company is owned by German automotive manufacturer Audi through its Italian subsidiary Lamborghini, with Audi itself owned by the Volkswagen Group.",
+  "icon_resource_name" : "ic_ducati"
+},
+{
+  "id": "1",
+  "name": "Yamaha",
+  "short_description": "Japan",
+  "description": "Yamaha Corporation (ヤマハ株式会社, Yamaha Kabushiki Gaisha, /ˈjæməˌhɑː/; Japanese pronunciation: [jamaha]) is a Japanese multinational corporation and conglomerate with a very wide range of products and services. It is one of the constituents of Nikkei 225 and is the world's largest piano manufacturing company. The former motorcycle division was established in 1955 as Yamaha Motor Co., Ltd., which started as an affiliated company but later became independent, although Yamaha Corporation is still a major shareholder.",
+  "icon_resource_name" : "ic_yamaha"
+},
+  {
+    "id": "2",
+    "name": "KTM",
+    "short_description": "Austria",
+    "description": "KTM AG (formerly KTM Sportmotorcycle AG) is an Austrian motorcycle and sports car manufacturer owned by Pierer Mobility AG and Indian manufacturer Bajaj Auto. It was formed in 1992 but traces its foundation to as early as 1934. Today, KTM AG is the parent company of the KTM Group, consisting of a number of motorcycle brands.\n\nKTM is known for its off-road motorcycles (enduro, motocross and supermoto). Since the late 1990s, it has expanded into street motorcycle production and developing sports cars – namely the X-Bow. In 2015, KTM sold almost as many street as off-road bikes.",
+    "icon_resource_name" : "ic_ktm"
+  },
+  {
+    "id": "3",
+    "name": "Triumph",
+    "short_description": "Great Britain",
+    "description": "The Triumph Motor Company was a British car and motor manufacturing company in the 19th and 20th centuries. The marque had its origins in 1885 when Siegfried Bettmann of Nuremberg formed S. Bettmann & Co. and started importing bicycles from Europe and selling them under his own trade name in London. The trade name became \"Triumph\" the following year, and in 1887 Bettmann was joined by a partner, Moritz Schulte, also from Germany. In 1889, the businessmen started producing their own bicycles in Coventry, England.\n\nThe company was acquired by Leyland Motors in 1960, ultimately becoming part of the giant conglomerate British Leyland (BL) in 1968, where the Triumph brand was absorbed into BL's Specialist Division alongside former Leyland stablemates Rover and Jaguar. Triumph-badged vehicles were produced by BL until 1984 when the Triumph marque was retired, where it remained dormant under the auspices of BL's successor company Rover Group. The rights to the Triumph marque are currently owned by BMW, who purchased the Rover Group in 1994. ",
+    "icon_resource_name" : "ic_triumph"
+  },
+  {
+    "id": "4",
+    "name": "BMW",
+    "short_description": "Germany",
+    "description": "BMW Motorrad is the motorcycle brand of the German company BMW, part of its Corporate and Brand Development division. It has produced motorcycles since 1923, and achieved record sales for the fifth year in succession in 2015. With a total of 136,963 vehicles sold in 2015, BMW registered a growth of 10.9% in sales in comparison with 2014. In May 2011, the 2,000,000th motorcycle produced by BMW Motorrad was an R1200GS.",
+    "icon_resource_name" : "ic_bmw"
+  },
+  {
+    "id": "5",
+    "name": "Honda",
+    "short_description": "Japan",
+    "description": "Honda is the largest motorcycle manufacturer in Japan and has been since it started production in 1955. At its peak in 1982, Honda manufactured almost three million motorcycles annually. By 2006 this figure had reduced to around 550,000 but was still higher than its three domestic competitors.\n\nIn 2017, India became the largest motorcycle market of Honda",
+    "icon_resource_name" : "ic_honda"
+  },
+  {
+    "id": "6",
+    "name": "Husqvarna",
+    "short_description": "Sweden",
+    "description": "Husqvarna Motorcycles GmbH (Swedish: [ˈhʉ̂ːsˌkvɑːɲa] ; marketed as Husqvarna) is a Swedish-origin Austrian company which designs, engineers, manufactures and distributes motocross, enduro, supermoto and street motorcycles.\n\nThe company began producing motorcycles in 1903 at Huskvarna, Sweden, as a subsidiary of the Husqvarna armament firm. Today, Husqvarna Motorcycles GmbH is owned by Austrian KTM AG. ",
+    "icon_resource_name" : "ic_husqvarna"
+  },
+  {
+    "id": "7",
+    "name": "Bimota",
+    "short_description": "Italia",
+    "description": "Bimota is a small Italian manufacturer of custom and production motorcycles. It was founded in 1973 in Rimini, Italy by Valerio Bianchi, Giuseppe Morri, and Massimo Tamburini. The company name is a portmanteau derived from the first two letters of each of the three founders' surnames, Bianchi Morri Tamburini.",
+    "icon_resource_name" : "ic_bimota"
+  },
+  {
+    "id": "8",
+    "name": "Kawasaki",
+    "short_description": "Japan",
+    "description": "Kawasaki motorcycles are manufactured by the Motorcycle & Engine division of Kawasaki Heavy Industries at plants in Japan, Michigan, Philippines, India, Indonesia, Bangladesh and Thailand.",
+    "icon_resource_name" : "ic_kawasaki"
+  },
+  {
+    "id": "9",
+    "name": "Suzuki",
+    "short_description": "Japan",
+    "description": "Suzuki Motor Corporation (Japanese: スズキ株式会社, Hepburn: Suzuki Kabushiki-Kaisha) is a Japanese multinational corporation headquartered in Minami-ku, Hamamatsu. Suzuki manufactures automobiles, four-wheel drive vehicles, motorcycles, all-terrain vehicles (ATVs), outboard marine engines, wheelchairs and a variety of other small internal combustion engines. In 2016, Suzuki was the eleventh biggest automaker by production worldwide. Suzuki has over 45,000 employees and has 35 production facilities in 23 countries, and 133 distributors in 192 countries. The worldwide sales volume of automobiles is the world's tenth largest, while domestic sales volume is the third largest in the country.\n\nSuzuki's domestic motorcycle sales volume is the third largest in Japan.",
+    "icon_resource_name" : "ic_suzuki"
+  },
+  {
+    "id": "10",
+    "name": "MV Agusta",
+    "short_description": "Italia (Russian owner)",
+    "description": "MV Agusta (Italian pronunciation: [ˈɛmme ˈvu a.guː.sta], full name: MV AGUSTA Motor S.p.A, original name: Meccanica Verghera Agusta or MV) is a motorcycle manufacturer founded by Count Domenico Agusta on 19 January 1945 as one of the branches of the Agusta aircraft company near Milan in Cascina Costa, Italy. The abbreviation MV stands for Meccanica (mechanics) Verghera, the hamlet where the first MVs were made. The modern headquarters and main production facilities are located in Varese, Italy on the shore of Lake Varese.",
+    "icon_resource_name" : "ic_mv_agusta"
+  },
+  {
+    "id": "11",
+    "name": "Aprilia",
+    "short_description": "Italia",
+    "description": "Aprilia is an Italian motorcycle manufacturer founded immediately after World War II in Noale, Italy by Alberto Beggio. The company started as a manufacturer of bicycles and moved on to manufacture scooters and small-capacity motorcycles. In more recent times Aprilia has produced large sportbikes such as the 1,000 cc V-twin RSV Mille and the V4 RSV4.\n\nAprilia has supported a strong motorsport competition program beginning with motocross racing and then a world championship-winning road racing program. The company was acquired by Piaggio in 2004.",
+    "icon_resource_name" : "ic_aprilia"
+  },
+  {
+    "id": "12",
+    "name": "Harley Davidson",
+    "short_description": "USA",
+    "description": "Harley-Davidson, Inc., H-D, or Harley, is an American motorcycle manufacturer founded in 1903 in Milwaukee, Wisconsin. Along with Indian it was one of two major American motorcycle manufacturers to survive the Great Depression. The company has survived numerous ownership arrangements, subsidiary arrangements, periods of poor economic health and product quality, and intense global competition to become one of the world's largest motorcycle manufacturers and an iconic brand widely known for its loyal following. There are owner clubs and events worldwide, as well as a company-sponsored, brand-focused museum.\n\nHarley-Davidson is noted for a style of customization that gave rise to the chopper motorcycle style. The company traditionally marketed heavyweight, air-cooled cruiser motorcycles with engine displacements greater than 700 cc, but it has broadened its offerings to include more contemporary VRSC (2002) and middle-weight Street (2015) platforms.\n\nHarley-Davidson manufactures its motorcycles at factories in York, Pennsylvania; Milwaukee, Wisconsin; Kansas City, Missouri (closing); Manaus, Brazil; and Bawal, India. Construction of a new plant in Thailand began in late 2018. The company markets its products worldwide, and also licenses and markets merchandise under the Harley-Davidson brand, among them apparel, home decor and ornaments, accessories, toys, scale models of its motorcycles, and video games based on its motorcycle line and the community. ",
+    "icon_resource_name" : "ic_harley_davidson"
+  },
+  {
+    "id": "13",
+    "name": "Moto Guzzi",
+    "short_description": "Italia",
+    "description": "Moto Guzzi is an Italian motorcycle manufacturer and the oldest European manufacturer in continuous motorcycle production.\n\nEstablished in 1921 in Mandello del Lario, Italy, the company is noted for its historic role in Italy's motorcycling manufacture, its prominence worldwide in motorcycle racing, and industry innovations—including the first motorcycle centre stand, wind tunnel and eight-cylinder engine.\n\nSince 2004, Moto Guzzi has been an unico azionista, a wholly owned subsidiary, and one of seven brands owned by Piaggio & C. SpA, Europe's largest motorcycle manufacturer and the world's fourth largest motorcycle manufacturer by unit sales.\n\nThe company's motorcycles are noted for their air-cooled 90° V-twin engines with a longitudinal crankshaft orientation where the engines' transverse cylinder heads project prominently on either side of the motorcycle.",
+    "icon_resource_name" : "ic_moto_guzzi"
+  }
+]

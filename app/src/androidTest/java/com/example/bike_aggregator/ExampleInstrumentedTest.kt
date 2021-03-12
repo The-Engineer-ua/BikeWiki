@@ -1,4 +1,4 @@
-package com.example.bike_aggregator
+package com.glushkov.bike_aggregator
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -14,11 +14,11 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 @RunWith(AndroidJUnit4::class)
-class ExampleInstrumentedTest {
+class glushkovInstrumentedTest {
     @Test
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.bike_aggregator", appContext.packageName)
+        assertEquals("com.glushkov.bike_aggregator", appContext.packageName)
     }
 }
