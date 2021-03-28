@@ -2,7 +2,7 @@ package com.glushkov.bike_wiki.di.module
 
 import com.apollographql.apollo.ApolloClient
 import com.glushkov.bike_wiki.BuildConfig
-import com.glushkov.bike_wiki.data.BikeDataSource
+import com.glushkov.bike_wiki.data.BikeRemoteRepository
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
@@ -19,7 +19,7 @@ class ServiceModule {
     }
 
     @Provides
-    fun provideSpaceXDataSource(apolloClient: ApolloClient) : BikeDataSource {
-        return BikeDataSource(apolloClient)
+    fun provideSpaceXDataSource(apolloClient: ApolloClient) : BikeRemoteRepository {
+        return BikeRemoteRepository(apolloClient)
     }
 }

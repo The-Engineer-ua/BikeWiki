@@ -1,0 +1,1 @@
+package com.glushkov.bike_wiki.ui.motorcycles

@@ -1,10 +1,9 @@
 package com.glushkov.bike_wiki.service
 
-import android.util.Log
-import com.glushkov.bike_wiki.data.BikeDataSource
+import com.glushkov.bike_wiki.data.BikeRemoteRepository
 import javax.inject.Inject
 
-class GraphQlService @Inject constructor(private val dataSource: BikeDataSource) {
+class GraphQlService @Inject constructor(private val dataSource: BikeRemoteRepository) {
 
 //    /**
 //     * Returns a set of paginated data
