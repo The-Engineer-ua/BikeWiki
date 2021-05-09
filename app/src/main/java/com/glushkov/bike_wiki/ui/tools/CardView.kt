@@ -1,6 +1,7 @@
 package com.glushkov.bike_wiki.ui.tools
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Card
@@ -29,13 +30,15 @@ import com.glushkov.bike_wiki.ui.values.Dimens.Companion.TITLE_FONT_SIZE
  * [CardViewModel] Data for configuring view
  */
 @Composable
-fun CardView(data: CardViewModel) {
+fun CardView(data: CardViewModel, onClick : (id: Int) -> Unit) {
     Card(
         modifier = Modifier
-            .padding(CARD_PADDING),
+            .padding(CARD_PADDING)
+            .clickable { onClick(data.itemId) },
         shape = RoundedCornerShape(CORNER_RADIUS),
         backgroundColor = CARD_VIEW_BACKGROUND,
-        elevation = ELEVATION
+        elevation = ELEVATION,
+
     ) {
         Column(
             verticalArrangement = Arrangement.Center,
@@ -76,5 +79,7 @@ fun CardView(data: CardViewModel) {
 @Preview
 @Composable
 fun PreviewCard() {
-    CardView(CardViewModel("Test Title", "ic_bimota", "Description here"))
+    CardView(
+        CardViewModel( 1,"Test Title", "ic_bimota", "Description here")
+    ) { }
 }

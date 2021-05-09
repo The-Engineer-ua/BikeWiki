@@ -1,24 +1,36 @@
 package com.glushkov.bike_wiki.ui.manufacturers
 
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.Text
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.glushkov.bike_wiki.data.models.local.ManufacturerModel
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.navigate
+import androidx.navigation.compose.rememberNavController
+import com.glushkov.bike_wiki.data.models.ui.CardViewModel
+import com.glushkov.bike_wiki.ui.tools.GridView
+import kotlinx.coroutines.InternalCoroutinesApi
 
 
+@InternalCoroutinesApi
+@ExperimentalFoundationApi
 @Composable
-fun Manufacturers() {
+fun Manufacturers(navController : NavHostController) {
     val vm : ManufacturersViewModel = viewModel()
     vm.getManufacturers()
-    val data: List<ManufacturerModel> by vm.manufacturersLiveData.observeAsState(listOf())
+    val data: List<CardViewModel> by vm.manufacturersLiveData.observeAsState(listOf())
 
-    Row(modifier = Modifier.fillMaxSize()) {
-        Text(textAlign = TextAlign.Center, text = "Size of manufacturers collection is: ${data.size}")
+    GridView(data = data) {
+        navController.navigate("motorcycles/$it")
     }
+}
+
+@InternalCoroutinesApi
+@ExperimentalFoundationApi
+@Preview
+@Composable
+fun PreviewManufacturers() {
+    Manufacturers(rememberNavController())
 }

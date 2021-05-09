@@ -11,4 +11,4 @@ package com.glushkov.bike_wiki.data.models.ui
  * @param shortDescription
  * Short description of a card
  */
-data class CardViewModel (val title: String, val icon: String, val shortDescription: String)
+data class CardViewModel (val itemId: Int, val title: String, val icon: String?, val shortDescription: String)

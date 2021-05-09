@@ -2,29 +2,27 @@ package com.glushkov.bike_wiki.ui.main
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.navigation.NavController
+import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.compose.navigate
+import androidx.navigation.compose.navArgument
 import androidx.navigation.compose.rememberNavController
-import com.glushkov.bike_wiki.data.models.ui.LineChartModel
-import com.glushkov.bike_wiki.ui.main.MainViewModel
 import com.glushkov.bike_wiki.ui.manufacturers.Manufacturers
-import com.glushkov.bike_wiki.ui.tools.LineChart
+import com.glushkov.bike_wiki.ui.motorcycle_info.MotorcycleInfo
+import com.glushkov.bike_wiki.ui.motorcycles.Motorcycles
+import kotlinx.coroutines.InternalCoroutinesApi
 
 class MainActivity : AppCompatActivity() {
 
-    private val vm : MainViewModel by viewModels()
-
+    @InternalCoroutinesApi
+    @ExperimentalFoundationApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        vm.initRepositories()
-
         setContent {
             MainView()
         }
@@ -34,21 +32,43 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    @InternalCoroutinesApi
+    @ExperimentalFoundationApi
     @Composable
     fun MainView() {
         SetUpNavigation()
     }
 
+    @InternalCoroutinesApi
+    @ExperimentalFoundationApi
     @Composable
     private fun SetUpNavigation() {
-        val navController = rememberNavController()
-        NavHost(navController = navController, startDestination = "manufacturers" ) {
-            composable("manufacturers") { Manufacturers() }
-            composable("motorcycles") {}
-            composable("motorcycle_info") {}
+        val navController: NavHostController = rememberNavController()
+        NavHost(navController = navController, startDestination = "manufacturers") {
+            composable("manufacturers") { Manufacturers(navController) }
+            composable(
+                "motorcycles/{id}",
+                arguments = listOf(navArgument("id") { type = NavType.IntType })
+            ) { backStackEntry ->
+                backStackEntry.arguments?.getInt("id")?.let { id ->
+                    Motorcycles(navController, id)
+                }
+
+            }
+            composable(
+                "motorcycleInfo/{id}",
+                arguments = listOf(navArgument("id") { type = NavType.IntType })
+            ) { backStackEntry ->
+                backStackEntry.arguments?.getInt("id")?.let { id ->
+                    MotorcycleInfo(navController, id)
+                }
+
+            }
         }
     }
 
+    @InternalCoroutinesApi
+    @ExperimentalFoundationApi
     @Preview
     @Composable
     fun PreviewView() {
