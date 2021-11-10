@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.glushkov.bike_wiki.data.AppLocalRepository
 import com.glushkov.bike_wiki.data.models.ui.CardViewModel
 import com.glushkov.bike_wiki.tools.ViewDataHelper
 import com.glushkov.bike_wiki.ui.MainApplication
@@ -11,10 +12,7 @@ import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.flow.collect
 
-class ManufacturersViewModel : ViewModel() {
-
-    private val dataSource = MainApplication.instance?.localData
-
+class ManufacturersViewModel(private val dataSource : AppLocalRepository) : ViewModel() {
     private val _manufacturersLiveData: MutableLiveData<List<CardViewModel>> = MutableLiveData()
     val manufacturersLiveData: LiveData<List<CardViewModel>>
         get() {

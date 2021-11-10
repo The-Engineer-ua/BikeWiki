@@ -4,14 +4,14 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.glushkov.bike_wiki.data.AppLocalRepository
 import com.glushkov.bike_wiki.data.models.local.MotorcycleModel
 import com.glushkov.bike_wiki.ui.MainApplication
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
-class MotorcycleInfoViewModel : ViewModel() {
-    private val dataSource = MainApplication.instance?.localData
+class MotorcycleInfoViewModel(private val dataSource : AppLocalRepository) : ViewModel() {
 
     private val _motorcycleLiveData: MutableLiveData<MotorcycleModel> = MutableLiveData()
     val motorcycleLiveData: LiveData<MotorcycleModel>

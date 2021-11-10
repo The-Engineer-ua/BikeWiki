@@ -1,27 +1,25 @@
 package com.glushkov.bike_wiki.ui
 
 import android.app.Application
-import com.glushkov.bike_wiki.data.AppLocalRepository
-import com.glushkov.bike_wiki.di.ApplicationComponent
-import com.glushkov.bike_wiki.di.DaggerApplicationComponent
-import com.glushkov.bike_wiki.di.module.ContextModule
+import com.glushkov.bike_wiki.di.dataModule
+import com.glushkov.bike_wiki.di.serviceModule
+import com.glushkov.bike_wiki.di.viewModule
+import org.koin.android.ext.koin.androidContext
+import org.koin.core.context.startKoin
 
 class MainApplication : Application() {
-    companion object {
-        var instance: MainApplication? = null
-            private set
-    }
-
-    private lateinit var appComponent: ApplicationComponent
-
-    lateinit var localData: AppLocalRepository
 
     override fun onCreate() {
         super.onCreate()
-        appComponent = DaggerApplicationComponent.builder()
-            .contextModule(ContextModule(this)).build()
-        localData = appComponent.getLocalRepository()
 
-        instance = this
+        //DI init. Inline cause nothing more here expected.
+        startKoin {
+            androidContext(this@MainApplication)
+            modules(listOf(
+                dataModule,
+                serviceModule,
+                viewModule
+            ))
+        }
     }
 }

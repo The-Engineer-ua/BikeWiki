@@ -12,13 +12,14 @@ import androidx.navigation.compose.rememberNavController
 import com.glushkov.bike_wiki.data.models.ui.CardViewModel
 import com.glushkov.bike_wiki.ui.tools.GridView
 import kotlinx.coroutines.InternalCoroutinesApi
+import org.koin.androidx.compose.getViewModel
 
 
 @InternalCoroutinesApi
 @ExperimentalFoundationApi
 @Composable
 fun Manufacturers(navController : NavHostController) {
-    val vm : ManufacturersViewModel = viewModel()
+    val vm : ManufacturersViewModel = getViewModel()
     vm.getManufacturers()
     val data: List<CardViewModel> by vm.manufacturersLiveData.observeAsState(listOf())
 

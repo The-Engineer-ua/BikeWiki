@@ -10,13 +10,14 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.glushkov.bike_wiki.data.models.local.MotorcycleModel
 import kotlinx.coroutines.InternalCoroutinesApi
+import org.koin.androidx.compose.getViewModel
 
 
 @InternalCoroutinesApi
 @ExperimentalFoundationApi
 @Composable
 fun MotorcycleInfo(navController : NavHostController, id: Int) {
-    val vm : MotorcycleInfoViewModel = viewModel()
+    val vm : MotorcycleInfoViewModel = getViewModel()
     vm.getMotorcycleById(id)
     val data: MotorcycleModel? by vm.motorcycleLiveData.observeAsState()
 
